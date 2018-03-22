@@ -194,10 +194,7 @@ extension RangeRadiusMKMapView {
     }
 
     public func getRenderer(from overlay: MKOverlay, properties: RangeRadiusProperties? = nil) -> CustomMKRadiusOverlayRenderer {
-        if self.renderer == nil {
-            self.setRenderer(from: overlay, properties: properties)
-        }
-
+        self.setRenderer(from: overlay, properties: properties)
         return self.renderer!
     }
 
