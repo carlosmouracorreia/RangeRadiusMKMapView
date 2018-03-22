@@ -9,13 +9,15 @@
 This Pod allows for easy integration of a swipable CircleOverlay within a custom subclass of MKMapView.
 The library is 100% written in Swift and inspired (partially re-written from) on [ResizableMKCircleOverlay](https://github.com/OrbJapan/ResizableMKCircleOverlay) (written in Objective-C)
 
+![alt text](usage.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Simple Usage
 
-### Important notice: RangeRadiusMKMapView conforms to MKMapViewDelegate by default; If you want to conform to it on your own, you need to read further below.
+**Important notice: RangeRadiusMKMapView conforms to MKMapViewDelegate by default; If you want to conform to it on your own, you need to read further below.**
 
 Check the [ViewController example](Example/RangeRadiusMKMapView/ViewController.swift) for initialization details.
 
@@ -39,12 +41,12 @@ You need to conform to MKRadiusDelegate somewhere and pass the reference delegat
 ```
 
 ```Swift 
-	extension ViewController : MKRadiusDelegate {
-    	func onRadiusChange(_ radius: Double) {
-    		//From the example app
-        	self.setRangeTitle(radius)
-    	}
-	}
+extension ViewController : MKRadiusDelegate {
+    func onRadiusChange(_ radius: Double) {
+    	//From the example app
+       	self.setRangeTitle(radius)
+   	}
+ }
 
 ```
 
@@ -59,12 +61,12 @@ By design, it's better and more useful to have your own class to conform to MKMa
 ```
 
 ```Swift 
-	extension ViewController : MKMapViewDelegate {
-    	func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
-        	let properties = RangeRadiusProperties(fillColor: UIColor.red, alpha: 0.5, border: 50, borderColor: UIColor.black)
-        	return self.mapView.getRenderer(from: overlay, properties: properties)
-    	}
-	}
+extension ViewController : MKMapViewDelegate {
+    func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+       	let properties = RangeRadiusProperties(fillColor: UIColor.red, alpha: 0.5, border: 50, borderColor: UIColor.black)
+       	return self.mapView.getRenderer(from: overlay, properties: properties)
+   	}
+}
 ```
 
 
