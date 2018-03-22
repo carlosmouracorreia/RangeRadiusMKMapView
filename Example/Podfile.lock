@@ -1,0 +1,16 @@
+PODS:
+  - RangeRadiusMKMapView (0.1.0)
+
+DEPENDENCIES:
+  - RangeRadiusMKMapView (from `../`)
+
+EXTERNAL SOURCES:
+  RangeRadiusMKMapView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RangeRadiusMKMapView: 913530702a781c42901c507843697eca92c87a82
+
+PODFILE CHECKSUM: ef3c20c805e3446d9e5b46f78593bf97d5d1f459
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,6 @@
+framework module RangeRadiusMKMapView {
+  umbrella header "RangeRadiusMKMapView-umbrella.h"
+
+  export *
+  module * { export * }
+}

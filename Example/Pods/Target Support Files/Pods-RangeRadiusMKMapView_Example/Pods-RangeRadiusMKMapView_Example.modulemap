@@ -1,0 +1,6 @@
+framework module Pods_RangeRadiusMKMapView_Example {
+  umbrella header "Pods-RangeRadiusMKMapView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

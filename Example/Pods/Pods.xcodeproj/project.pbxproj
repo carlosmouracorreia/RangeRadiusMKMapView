@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29E5C386FD4BF3EA93C2686A4C1C075F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		300A9931FDF04BDF461D5B43CEFF976C /* RangeRadiusMKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0DA65F9B1A2F7CE81BE9DA344A0B34 /* RangeRadiusMKMapView.swift */; };
+		32B479F049A7F50584997C6A8B48B9EA /* Pods-RangeRadiusMKMapView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CB1865B78420D750C8047E9A57F8FA /* Pods-RangeRadiusMKMapView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D7D61E5B102EB74847F85E2B4BAC6DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */; };
+		3F939A023D47A081B2E3D166CF902CE8 /* RangeRadiusProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA101EAF65054311E321E4715C1BC109 /* RangeRadiusProperties.swift */; };
+		51F2362662325C8F00F8276AB4F3352F /* CustomMKRadiusOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8F63C7DB96236291D68A417B21ACC /* CustomMKRadiusOverlayRenderer.swift */; };
+		5FCF1847B8E36175A83E5F39AF538393 /* Pods-RangeRadiusMKMapView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F3675986850FDDA8BFE08A371B48AB /* Pods-RangeRadiusMKMapView_Example-dummy.m */; };
+		6F16EC817DCBC39EF4B344AB2B32EB46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		9671AC591D71A00DAB840F7AABF2248A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8436533CEC029288113A22556AA9D09 /* MapKit.framework */; };
+		B4E551DFD8C196955BFBD5565936AD83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		BA53A008C35D045BF8D3BAC7FA7D44A5 /* RangeRadiusMKMapView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C765D77D97525933B4E4CE523693A /* RangeRadiusMKMapView-dummy.m */; };
+		CB69CC623DA4E42E021AC066ADB6B9D5 /* WildGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB760EEED4F32046AD8EB909D236749 /* WildGestureRecognizer.swift */; };
+		D6E90A3AAEDEDF51E3696AE1CF2FC323 /* Pods-RangeRadiusMKMapView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB4F77EFD2FEAD072C23D918646394 /* Pods-RangeRadiusMKMapView_Tests-dummy.m */; };
+		FE70EF5F9125FCDFFC610EA474737D6E /* RangeRadiusMKMapView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9F2693D9FF62AED4E1B67331493B22 /* RangeRadiusMKMapView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEA54CA6A3F341F5C209A0C009180367 /* Pods-RangeRadiusMKMapView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D589986E23D7B5AD7CDA7D28A5DB8630 /* Pods-RangeRadiusMKMapView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		602A5E7AA7365348A3C9CBBC5887023E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58DC4C7C8DC1CA77C909810D6F5EAAC1;
+			remoteInfo = RangeRadiusMKMapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DFFF803688483797BFBC247EE6856A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		194CC94D4FF9EA2F431107DEFEE17A62 /* Pods-RangeRadiusMKMapView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RangeRadiusMKMapView_Tests.modulemap"; sourceTree = "<group>"; };
+		21F02BADC4DB4E1DF0CAE70E7655CCB6 /* RangeRadiusMKMapView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RangeRadiusMKMapView.xcconfig; sourceTree = "<group>"; };
+		3AADD2FB329A6B78641A86FFE73921C1 /* RangeRadiusMKMapView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RangeRadiusMKMapView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3BC8F63C7DB96236291D68A417B21ACC /* CustomMKRadiusOverlayRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomMKRadiusOverlayRenderer.swift; path = RangeRadiusMKMapView/Classes/CustomMKRadiusOverlayRenderer.swift; sourceTree = "<group>"; };
+		58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5D9C765D77D97525933B4E4CE523693A /* RangeRadiusMKMapView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RangeRadiusMKMapView-dummy.m"; sourceTree = "<group>"; };
+		5F94A552CEB9631750942994A413F5A2 /* Pods_RangeRadiusMKMapView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RangeRadiusMKMapView_Tests.framework; path = "Pods-RangeRadiusMKMapView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACB4F77EFD2FEAD072C23D918646394 /* Pods-RangeRadiusMKMapView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RangeRadiusMKMapView_Tests-dummy.m"; sourceTree = "<group>"; };
+		79D7E4005434F8F1FE5E6267425721FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F741FA29CA0DF7765855E6F9EF5E86 /* Pods-RangeRadiusMKMapView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RangeRadiusMKMapView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8962C71C0E741CEFF7188D2023DF7E42 /* Pods-RangeRadiusMKMapView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RangeRadiusMKMapView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8EA4C4777005DA68EBC8B9697D1B85AB /* RangeRadiusMKMapView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RangeRadiusMKMapView.modulemap; sourceTree = "<group>"; };
+		8F0DA65F9B1A2F7CE81BE9DA344A0B34 /* RangeRadiusMKMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeRadiusMKMapView.swift; path = RangeRadiusMKMapView/Classes/RangeRadiusMKMapView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE537978A18B35BFA827D1184CA0614 /* RangeRadiusMKMapView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangeRadiusMKMapView-prefix.pch"; sourceTree = "<group>"; };
+		A4FFE10070B569BCE4E5984D739A5938 /* Pods_RangeRadiusMKMapView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RangeRadiusMKMapView_Example.framework; path = "Pods-RangeRadiusMKMapView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE264B5B413717F501E621DDDAEAE695 /* Pods-RangeRadiusMKMapView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RangeRadiusMKMapView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B759D7CC0C5162888BDA94597455F88F /* Pods-RangeRadiusMKMapView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RangeRadiusMKMapView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7734659C4C617F71EC86127BE8F91CF /* Pods-RangeRadiusMKMapView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RangeRadiusMKMapView_Example.modulemap"; sourceTree = "<group>"; };
+		B8436533CEC029288113A22556AA9D09 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		C0F3675986850FDDA8BFE08A371B48AB /* Pods-RangeRadiusMKMapView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RangeRadiusMKMapView_Example-dummy.m"; sourceTree = "<group>"; };
+		C4539A9C3502639ABB86BC1D61EC383F /* Pods-RangeRadiusMKMapView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RangeRadiusMKMapView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C7C23B76DDF6D1C7F86688505C08E5A6 /* RangeRadiusMKMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RangeRadiusMKMapView.framework; path = RangeRadiusMKMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA101EAF65054311E321E4715C1BC109 /* RangeRadiusProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeRadiusProperties.swift; path = RangeRadiusMKMapView/Classes/RangeRadiusProperties.swift; sourceTree = "<group>"; };
+		CCD93337716DDDD5134A0E57C21CD14B /* Pods-RangeRadiusMKMapView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RangeRadiusMKMapView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDB760EEED4F32046AD8EB909D236749 /* WildGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WildGestureRecognizer.swift; path = RangeRadiusMKMapView/Classes/WildGestureRecognizer.swift; sourceTree = "<group>"; };
+		D105BCE20C20C6D02E3AD9323307E26D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FC9B351E540E14AEDC6102898D905A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D589986E23D7B5AD7CDA7D28A5DB8630 /* Pods-RangeRadiusMKMapView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RangeRadiusMKMapView_Example-umbrella.h"; sourceTree = "<group>"; };
+		D9CB1865B78420D750C8047E9A57F8FA /* Pods-RangeRadiusMKMapView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RangeRadiusMKMapView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DE9F2693D9FF62AED4E1B67331493B22 /* RangeRadiusMKMapView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangeRadiusMKMapView-umbrella.h"; sourceTree = "<group>"; };
+		DF778674FC32DAA07573648358F72276 /* Pods-RangeRadiusMKMapView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RangeRadiusMKMapView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E5581C11D534AC3E0B950499CF0E7A3A /* Pods-RangeRadiusMKMapView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RangeRadiusMKMapView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EDDD598C8C9AE1D36A96E5F8F7D5516C /* Pods-RangeRadiusMKMapView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RangeRadiusMKMapView_Tests-resources.sh"; sourceTree = "<group>"; };
+		F1FC1070D0622D5AF7788E448B4BAFB8 /* Pods-RangeRadiusMKMapView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RangeRadiusMKMapView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F722EC5CB71B10367188D980C75D6D3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FA5B08311BCF9AD9AB63B79081AA2F97 /* Pods-RangeRadiusMKMapView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RangeRadiusMKMapView_Example-resources.sh"; sourceTree = "<group>"; };
+		FEEC3D213D413DC118243FEA717C4AFE /* Pods-RangeRadiusMKMapView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RangeRadiusMKMapView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B1E38C90B3630684DEB775A32AF5752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F16EC817DCBC39EF4B344AB2B32EB46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D31903B1994B3886CA20BE62914C33A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E5C386FD4BF3EA93C2686A4C1C075F /* Foundation.framework in Frameworks */,
+				9671AC591D71A00DAB840F7AABF2248A /* MapKit.framework in Frameworks */,
+				3D7D61E5B102EB74847F85E2B4BAC6DE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736C2B3E3DEDBB78670DEFD7F89D7A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E551DFD8C196955BFBD5565936AD83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E41C3FD60FFA296598051533DC418C9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0DFFF803688483797BFBC247EE6856A6 /* LICENSE */,
+				3AADD2FB329A6B78641A86FFE73921C1 /* RangeRadiusMKMapView.podspec */,
+				F722EC5CB71B10367188D980C75D6D3A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5013620A7162A5C7CFF94512DF9CF854 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		191BCF27366DA9B8AD4DA8DBF96616CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FFE10070B569BCE4E5984D739A5938 /* Pods_RangeRadiusMKMapView_Example.framework */,
+				5F94A552CEB9631750942994A413F5A2 /* Pods_RangeRadiusMKMapView_Tests.framework */,
+				C7C23B76DDF6D1C7F86688505C08E5A6 /* RangeRadiusMKMapView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		240F395C6CC6090BBEC4B58AAC7B659C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99FBABE0432AD450194CAC05F8062290 /* Pods-RangeRadiusMKMapView_Example */,
+				C350F1B618097E21A1716B1C9BE5EFAF /* Pods-RangeRadiusMKMapView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3508AF97613D2A2C3838AF07C45F4574 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				360D0CAB6CDB3B30AB52B2B0C5F2EBEA /* RangeRadiusMKMapView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		360D0CAB6CDB3B30AB52B2B0C5F2EBEA /* RangeRadiusMKMapView */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8F63C7DB96236291D68A417B21ACC /* CustomMKRadiusOverlayRenderer.swift */,
+				8F0DA65F9B1A2F7CE81BE9DA344A0B34 /* RangeRadiusMKMapView.swift */,
+				CA101EAF65054311E321E4715C1BC109 /* RangeRadiusProperties.swift */,
+				CDB760EEED4F32046AD8EB909D236749 /* WildGestureRecognizer.swift */,
+				0E41C3FD60FFA296598051533DC418C9 /* Pod */,
+				73BA940FB6B65782BF36DAAC8476AD64 /* Support Files */,
+			);
+			name = RangeRadiusMKMapView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5013620A7162A5C7CFF94512DF9CF854 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */,
+				B8436533CEC029288113A22556AA9D09 /* MapKit.framework */,
+				58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		73BA940FB6B65782BF36DAAC8476AD64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79D7E4005434F8F1FE5E6267425721FB /* Info.plist */,
+				8EA4C4777005DA68EBC8B9697D1B85AB /* RangeRadiusMKMapView.modulemap */,
+				21F02BADC4DB4E1DF0CAE70E7655CCB6 /* RangeRadiusMKMapView.xcconfig */,
+				5D9C765D77D97525933B4E4CE523693A /* RangeRadiusMKMapView-dummy.m */,
+				9FE537978A18B35BFA827D1184CA0614 /* RangeRadiusMKMapView-prefix.pch */,
+				DE9F2693D9FF62AED4E1B67331493B22 /* RangeRadiusMKMapView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RangeRadiusMKMapView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3508AF97613D2A2C3838AF07C45F4574 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				191BCF27366DA9B8AD4DA8DBF96616CA /* Products */,
+				240F395C6CC6090BBEC4B58AAC7B659C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		99FBABE0432AD450194CAC05F8062290 /* Pods-RangeRadiusMKMapView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D105BCE20C20C6D02E3AD9323307E26D /* Info.plist */,
+				B7734659C4C617F71EC86127BE8F91CF /* Pods-RangeRadiusMKMapView_Example.modulemap */,
+				B759D7CC0C5162888BDA94597455F88F /* Pods-RangeRadiusMKMapView_Example-acknowledgements.markdown */,
+				FEEC3D213D413DC118243FEA717C4AFE /* Pods-RangeRadiusMKMapView_Example-acknowledgements.plist */,
+				C0F3675986850FDDA8BFE08A371B48AB /* Pods-RangeRadiusMKMapView_Example-dummy.m */,
+				8962C71C0E741CEFF7188D2023DF7E42 /* Pods-RangeRadiusMKMapView_Example-frameworks.sh */,
+				FA5B08311BCF9AD9AB63B79081AA2F97 /* Pods-RangeRadiusMKMapView_Example-resources.sh */,
+				D589986E23D7B5AD7CDA7D28A5DB8630 /* Pods-RangeRadiusMKMapView_Example-umbrella.h */,
+				E5581C11D534AC3E0B950499CF0E7A3A /* Pods-RangeRadiusMKMapView_Example.debug.xcconfig */,
+				C4539A9C3502639ABB86BC1D61EC383F /* Pods-RangeRadiusMKMapView_Example.release.xcconfig */,
+			);
+			name = "Pods-RangeRadiusMKMapView_Example";
+			path = "Target Support Files/Pods-RangeRadiusMKMapView_Example";
+			sourceTree = "<group>";
+		};
+		C350F1B618097E21A1716B1C9BE5EFAF /* Pods-RangeRadiusMKMapView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4FC9B351E540E14AEDC6102898D905A /* Info.plist */,
+				194CC94D4FF9EA2F431107DEFEE17A62 /* Pods-RangeRadiusMKMapView_Tests.modulemap */,
+				AE264B5B413717F501E621DDDAEAE695 /* Pods-RangeRadiusMKMapView_Tests-acknowledgements.markdown */,
+				CCD93337716DDDD5134A0E57C21CD14B /* Pods-RangeRadiusMKMapView_Tests-acknowledgements.plist */,
+				6ACB4F77EFD2FEAD072C23D918646394 /* Pods-RangeRadiusMKMapView_Tests-dummy.m */,
+				F1FC1070D0622D5AF7788E448B4BAFB8 /* Pods-RangeRadiusMKMapView_Tests-frameworks.sh */,
+				EDDD598C8C9AE1D36A96E5F8F7D5516C /* Pods-RangeRadiusMKMapView_Tests-resources.sh */,
+				D9CB1865B78420D750C8047E9A57F8FA /* Pods-RangeRadiusMKMapView_Tests-umbrella.h */,
+				80F741FA29CA0DF7765855E6F9EF5E86 /* Pods-RangeRadiusMKMapView_Tests.debug.xcconfig */,
+				DF778674FC32DAA07573648358F72276 /* Pods-RangeRadiusMKMapView_Tests.release.xcconfig */,
+			);
+			name = "Pods-RangeRadiusMKMapView_Tests";
+			path = "Target Support Files/Pods-RangeRadiusMKMapView_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FBFC7ACD24478F88712548B2DCC24B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE70EF5F9125FCDFFC610EA474737D6E /* RangeRadiusMKMapView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B44B2B26C65A04AA3D98E39435CC42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B479F049A7F50584997C6A8B48B9EA /* Pods-RangeRadiusMKMapView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE605FE5A16D85FBF51127070FB48FD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA54CA6A3F341F5C209A0C009180367 /* Pods-RangeRadiusMKMapView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58DC4C7C8DC1CA77C909810D6F5EAAC1 /* RangeRadiusMKMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9AF0DABFD13B61B195993889C9A245F /* Build configuration list for PBXNativeTarget "RangeRadiusMKMapView" */;
+			buildPhases = (
+				CD9628195231DE8AE8364EBA2AB9EBE1 /* Sources */,
+				1D31903B1994B3886CA20BE62914C33A /* Frameworks */,
+				3FBFC7ACD24478F88712548B2DCC24B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RangeRadiusMKMapView;
+			productName = RangeRadiusMKMapView;
+			productReference = C7C23B76DDF6D1C7F86688505C08E5A6 /* RangeRadiusMKMapView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		853C2EC476061F6AFCD0475A624C8B14 /* Pods-RangeRadiusMKMapView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D33C8A4FC5BB9B53032ABD7316D5A2 /* Build configuration list for PBXNativeTarget "Pods-RangeRadiusMKMapView_Tests" */;
+			buildPhases = (
+				198BC129DF554AEE592460C35C85C130 /* Sources */,
+				736C2B3E3DEDBB78670DEFD7F89D7A30 /* Frameworks */,
+				A8B44B2B26C65A04AA3D98E39435CC42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RangeRadiusMKMapView_Tests";
+			productName = "Pods-RangeRadiusMKMapView_Tests";
+			productReference = 5F94A552CEB9631750942994A413F5A2 /* Pods_RangeRadiusMKMapView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7831F700CFABF785E7B8A37507E65F0 /* Pods-RangeRadiusMKMapView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37636A1E40DD241D14D6B54A6EF5D6AA /* Build configuration list for PBXNativeTarget "Pods-RangeRadiusMKMapView_Example" */;
+			buildPhases = (
+				43301C0547D7A64372152E29D02F4EEF /* Sources */,
+				1B1E38C90B3630684DEB775A32AF5752 /* Frameworks */,
+				CE605FE5A16D85FBF51127070FB48FD3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F79D75D725863CA7554CD7D2CCCAE42F /* PBXTargetDependency */,
+			);
+			name = "Pods-RangeRadiusMKMapView_Example";
+			productName = "Pods-RangeRadiusMKMapView_Example";
+			productReference = A4FFE10070B569BCE4E5984D739A5938 /* Pods_RangeRadiusMKMapView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 191BCF27366DA9B8AD4DA8DBF96616CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7831F700CFABF785E7B8A37507E65F0 /* Pods-RangeRadiusMKMapView_Example */,
+				853C2EC476061F6AFCD0475A624C8B14 /* Pods-RangeRadiusMKMapView_Tests */,
+				58DC4C7C8DC1CA77C909810D6F5EAAC1 /* RangeRadiusMKMapView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		198BC129DF554AEE592460C35C85C130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E90A3AAEDEDF51E3696AE1CF2FC323 /* Pods-RangeRadiusMKMapView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43301C0547D7A64372152E29D02F4EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCF1847B8E36175A83E5F39AF538393 /* Pods-RangeRadiusMKMapView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9628195231DE8AE8364EBA2AB9EBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F2362662325C8F00F8276AB4F3352F /* CustomMKRadiusOverlayRenderer.swift in Sources */,
+				BA53A008C35D045BF8D3BAC7FA7D44A5 /* RangeRadiusMKMapView-dummy.m in Sources */,
+				300A9931FDF04BDF461D5B43CEFF976C /* RangeRadiusMKMapView.swift in Sources */,
+				3F939A023D47A081B2E3D166CF902CE8 /* RangeRadiusProperties.swift in Sources */,
+				CB69CC623DA4E42E021AC066ADB6B9D5 /* WildGestureRecognizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F79D75D725863CA7554CD7D2CCCAE42F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RangeRadiusMKMapView;
+			target = 58DC4C7C8DC1CA77C909810D6F5EAAC1 /* RangeRadiusMKMapView */;
+			targetProxy = 602A5E7AA7365348A3C9CBBC5887023E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4202EADEE714FB6F9F434651DA067789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF778674FC32DAA07573648358F72276 /* Pods-RangeRadiusMKMapView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RangeRadiusMKMapView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RangeRadiusMKMapView_Tests/Pods-RangeRadiusMKMapView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RangeRadiusMKMapView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43431C6F3B889304575C3735A722C5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5581C11D534AC3E0B950499CF0E7A3A /* Pods-RangeRadiusMKMapView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RangeRadiusMKMapView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RangeRadiusMKMapView_Example/Pods-RangeRadiusMKMapView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RangeRadiusMKMapView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		639C684B21CE49713EB4F37899A68A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F02BADC4DB4E1DF0CAE70E7655CCB6 /* RangeRadiusMKMapView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RangeRadiusMKMapView/RangeRadiusMKMapView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RangeRadiusMKMapView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RangeRadiusMKMapView/RangeRadiusMKMapView.modulemap";
+				PRODUCT_NAME = RangeRadiusMKMapView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BB735F9F577DDDD3C56EDDA552E1A401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F02BADC4DB4E1DF0CAE70E7655CCB6 /* RangeRadiusMKMapView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RangeRadiusMKMapView/RangeRadiusMKMapView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RangeRadiusMKMapView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RangeRadiusMKMapView/RangeRadiusMKMapView.modulemap";
+				PRODUCT_NAME = RangeRadiusMKMapView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C121970DDC98354C2ED4CB8132AFE914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F741FA29CA0DF7765855E6F9EF5E86 /* Pods-RangeRadiusMKMapView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RangeRadiusMKMapView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RangeRadiusMKMapView_Tests/Pods-RangeRadiusMKMapView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RangeRadiusMKMapView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF0A1F3E418F93CF8A07AF6719D97709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4539A9C3502639ABB86BC1D61EC383F /* Pods-RangeRadiusMKMapView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RangeRadiusMKMapView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RangeRadiusMKMapView_Example/Pods-RangeRadiusMKMapView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RangeRadiusMKMapView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37636A1E40DD241D14D6B54A6EF5D6AA /* Build configuration list for PBXNativeTarget "Pods-RangeRadiusMKMapView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43431C6F3B889304575C3735A722C5F0 /* Debug */,
+				EF0A1F3E418F93CF8A07AF6719D97709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D33C8A4FC5BB9B53032ABD7316D5A2 /* Build configuration list for PBXNativeTarget "Pods-RangeRadiusMKMapView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C121970DDC98354C2ED4CB8132AFE914 /* Debug */,
+				4202EADEE714FB6F9F434651DA067789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9AF0DABFD13B61B195993889C9A245F /* Build configuration list for PBXNativeTarget "RangeRadiusMKMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639C684B21CE49713EB4F37899A68A16 /* Debug */,
+				BB735F9F577DDDD3C56EDDA552E1A401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
