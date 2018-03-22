@@ -9,7 +9,7 @@
 This Pod allows for easy integration of a swipable CircleOverlay within a custom subclass of MKMapView.
 The library is 100% written in Swift and inspired (partially re-written from) on [ResizableMKCircleOverlay](https://github.com/OrbJapan/ResizableMKCircleOverlay) (written in Objective-C)
 
-![alt text](usage.gif)
+![alt text](https://github.com/carlosmouracorreia/RangeRadiusMKMapView/blob/master/usage.gif)
 
 ## Example
 
