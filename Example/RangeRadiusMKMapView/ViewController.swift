@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         self.mapView = RangeRadiusMKMapView(frame: .zero, delegate: self)
-        self.mapView.delegate = self
         self.view.addSubview(mapView)
 
         self.mapView.setRadiusWithRange(centerCoordinate: DEFAULT_COORDINATE, startRadius: 200, minRadius: 100, maxRadius: 4000)
